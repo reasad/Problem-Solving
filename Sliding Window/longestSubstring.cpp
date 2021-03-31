@@ -17,7 +17,7 @@ int findLongestSubstring(string s, int k)
 {
     int n = s.size();
     int start = 0, max_start = 0, maxWindowLength = 0;
-    map<char, int> mp;
+    unordered_map<char, int> mp;
     
     for (int i=0; i<n; i++)
     {
